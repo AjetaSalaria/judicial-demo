@@ -1,0 +1,8 @@
+[04-Aug-2021 03:36:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/tran7010/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tran7010/public_html/config/app.php on line 16
+[04-Aug-2021 03:36:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/tran7010/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tran7010/public_html/config/app.php on line 16
