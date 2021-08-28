@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <link rel="stylesheet" href="{{ asset('css/feather.css') }}" />
         <link rel="stylesheet" href="{{ asset('css/marketing.css') }}" />
-        <link rel="stylesheet" href="{{ asset('css/trellis_modal.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/judicial_modal.css') }}" />
         <link rel="stylesheet" href="{{ asset('css/output.d476468f597f.css') }}" type="text/css" />
         <script src="{{ asset('js/jquery-3.2.1.slim.min.js') }}"></script>
         <script src="{{ asset('js/popper.min.js') }}"></script>
@@ -44,7 +44,7 @@
             });
             // If Authenticated, Set User Script Var
             var IS_AUTHENTICATED = false;
-            var trellisUser = undefined;
+            var judicialUser = undefined;
             var IS_SUBSCRIBED = false; 
         </script>
     
@@ -248,7 +248,7 @@
         
             // If Authenticated, Set User Script Var
             var IS_AUTHENTICATED = false;
-            var trellisUser = undefined;
+            var judicialUser = undefined;
         
 
         

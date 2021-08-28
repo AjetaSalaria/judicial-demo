@@ -1,5 +1,5 @@
 @extends('layout')
-  
+
 @section('content')
 <div id="__next" style="position: relative;">
    <div class="container-fluid">
@@ -8,7 +8,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
                <div class="container">
                   <a class="navbar-brand" href="../">
-                  <img src="/static/global/trellis-word-dark-green.svg" class="navbar-brand-img" alt="TranscriptMiner">
+                  <img src="/static/global/judicial-word-dark-green.svg" class="navbar-brand-img" alt="TranscriptMiner">
                   </a>
                   <p class="mb-0 font-size-sm text-center text-muted"></p>
                </div>

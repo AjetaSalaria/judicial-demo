@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <link rel="stylesheet" href="{{ asset('css/feather.css') }}" />
         <link rel="stylesheet" href="{{ asset('css/marketing.css') }}" />
-        <link rel="stylesheet" href="{{ asset('css/trellis_modal.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/judicial_modal.css') }}" />
         <link rel="stylesheet" href="{{ asset('css/output.d476468f597f.css') }}" type="text/css" />
         <script src="{{ asset('js/jquery-3.2.1.slim.min.js') }}"></script>
         <script src="{{ asset('js/popper.min.js') }}"></script>
@@ -37,8 +37,8 @@
             });
             // If Authenticated, Set User Script Var
             var IS_AUTHENTICATED = false;
-            var trellisUser = undefined;
-            var IS_SUBSCRIBED = false; 
+            var judicialUser = undefined;
+            var IS_SUBSCRIBED = false;
         </script>
     </head>
     <body>
@@ -145,7 +145,7 @@
                               <a class="navbar-btn btn btn-sm btn-primary-soft lift" href="{{url('/login')}}" role="button">
                            Login</a>
                             @endauth
-                           
+
                         </div>
                      </div>
                   </div>
@@ -167,12 +167,12 @@
 
 <ul class="list-inline mb-0 social-footer">
 <li class="list-inline-item">
-<a class="btn btn-xs btn-icon btn-soft-secondary rounded" href="https://www.linkedin.com/company/trellis-law" aria-label="Linkedin">
+<a class="btn btn-xs btn-icon btn-soft-secondary rounded" href="https://www.linkedin.com/company/judicial-law" aria-label="Linkedin">
 <i class="fab fa-linkedin fa-2x"></i>
 </a>
 </li>
 <li class="list-inline-item">
-<a class="btn btn-xs btn-icon btn-soft-secondary rounded" href="https://twitter.com/trellis_law" aria-label="Twitter">
+<a class="btn btn-xs btn-icon btn-soft-secondary rounded" href="https://twitter.com/judicial_law" aria-label="Twitter">
 <i class="fab fa-twitter fa-2x"></i>
 </a>
 </li>
@@ -238,13 +238,13 @@
 <h5 class="text-white">Resources</h5>
 
 <ul class="nav nav-sm nav-x-0 nav-white flex-column">
-<li class="nav-item"><a class="nav-link" href="https://blog.trellis.law/">
+<li class="nav-item"><a class="nav-link" href="https://blog.judicial.law/">
 <span class="media align-items-center">
 <span class="media-body">Blog</span>
 </span>
 </a>
 </li>
-<li class="nav-item"><a class="nav-link" href="https://support.trellis.law">
+<li class="nav-item"><a class="nav-link" href="https://support.judicial.law">
 <span class="media align-items-center">
  <span class="media-body">Support & FAQ</span>
 </span>
@@ -291,7 +291,7 @@
 </footer>
 </div>
 @endif
-   
+
 </div>
 </div>
 </div>
@@ -318,15 +318,15 @@
             duration: 1000
         });
 
-        
+
             // If Authenticated, Set User Script Var
             var IS_AUTHENTICATED = false;
-            var trellisUser = undefined;
-        
+            var judicialUser = undefined;
 
-        
+
+
             var IS_SUBSCRIBED = false;
-        
+
     </script>
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="04c1a5878af86805c5ea1c00-|49" defer=""></script></body>
 </html>
