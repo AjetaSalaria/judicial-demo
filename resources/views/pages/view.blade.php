@@ -425,9 +425,9 @@
                     Case No : {{$result->detail_case_number}}
                 </h3>
                 <div class="cta-block hide-on-print d-none d-md-block"> 
-                    <a class="btn trellis-action-btn download-document mr-1 trellisCallToAction  inactive-purchase-flow-link " href="#" data-download="ruling" data-page="Ruling" data-action="Download">
+                    <a class="btn judicial-action-btn download-document mr-1 judicialCallToAction  inactive-purchase-flow-link " href="#" data-download="ruling" data-page="Ruling" data-action="Download">
                         Download Ruling
-                            </a> {{-- <a class="btn trellis-action-btn print-document mr-1 trellisCallToAction  inactive-purchase-flow-link " href="/pricing?post_logged_in_path=L3ByaWNpbmc/ZHJjPTEmdXBncmFkZV9zdGF0ZT1ZMkU9&post_purchase_path=L3J1bGluZy8xNUNWMDA1ODkvUXVpYW5hLUZvbGV5LXZzLVNCLUJvb2tzLzIwMTUxMDI3ZjVlNDg0P3ByaW50UGFnZT0x&cn=UXVpYW5hIEZvbGV5IHZzIFNCIEJvb2tz&upgrade_state=Y2E=" data-print="ruling" data-page="Ruling" data-action="Print">
+                            </a> {{-- <a class="btn judicial-action-btn print-document mr-1 judicialCallToAction  inactive-purchase-flow-link " href="/pricing?post_logged_in_path=L3ByaWNpbmc/ZHJjPTEmdXBncmFkZV9zdGF0ZT1ZMkU9&post_purchase_path=L3J1bGluZy8xNUNWMDA1ODkvUXVpYW5hLUZvbGV5LXZzLVNCLUJvb2tzLzIwMTUxMDI3ZjVlNDg0P3ByaW50UGFnZT0x&cn=UXVpYW5hIEZvbGV5IHZzIFNCIEJvb2tz&upgrade_state=Y2E=" data-print="ruling" data-page="Ruling" data-action="Print">
                             Print Ruling
                             </a>  --}}
                 </div>
@@ -470,8 +470,8 @@
                             <br />
                             <br /> 
                             <div style="display: block; position:relative; margin-top: 2em; margin-bottom: 2em; z-index:1000; text-align: center;">
-                                <a class="de-anchor trellisCallToAction  inactive-purchase-flow-link " href="#" data-page="Ruling" data-action="Continue Reading">
-                                    <button class="continue-reading-link trellis-action-btn walledOff" type="button" data-nosnippet>Continue Reading</button>
+                                <a class="de-anchor judicialCallToAction  inactive-purchase-flow-link " href="#" data-page="Ruling" data-action="Continue Reading">
+                                    <button class="continue-reading-link judicial-action-btn walledOff" type="button" data-nosnippet>Continue Reading</button>
                                 </a>
                             </div>
                     </div>
@@ -524,7 +524,7 @@
         </div>
             <input type='hidden' name='csrfmiddlewaretoken' value='gDZfGv16fNXtUnCONZF2XD0m4SGGv27NprFa9wqxhAJGxms0spfyzanbKCTqrpEV' />
             <div class="page-container printable">
-                <h1 class="print-text">For full print and download access, please subscribe at https://www.trellis.law/.</h1> 
+                <h1 class="print-text">For full print and download access, please subscribe at https://www.judicial.law/.</h1> 
             </div>
                 <script type="f73247061111a56f15ff5412-text/javascript" src="/static/CACHE/js/output.bc7edacc955d.js"></script>
                 <script type="f73247061111a56f15ff5412-text/javascript" src="/static/user_account/js/unpause_alert.js"></script>
@@ -537,10 +537,10 @@
                 });
                 </script>
                 <input type='hidden' name='csrfmiddlewaretoken' value='gDZfGv16fNXtUnCONZF2XD0m4SGGv27NprFa9wqxhAJGxms0spfyzanbKCTqrpEV' />
-        <div class="modal alertModal trellis-popup-modal" id="alertAddSuccessModal" tabindex="-1" role="dialog" aria-labelledby="alertAddSuccessModal" aria-hidden="true">
+        <div class="modal alertModal judicial-popup-modal" id="alertAddSuccessModal" tabindex="-1" role="dialog" aria-labelledby="alertAddSuccessModal" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="trellisPopupContent border-gray pt-0 d-flex flex-column align-items-start mt-4">
+                    <div class="judicialPopupContent border-gray pt-0 d-flex flex-column align-items-start mt-4">
                         <div class="modal-title d-flex flex-row justify-content-start align-items-center"> 
                             <img class="modal-icon" src="/static/alerts/bell-icon-2.svg" alt="close icon" />
                             <h5>Alert Confirmation</h5>
@@ -554,8 +554,8 @@
                         <div class="shareWithOthersPanel mt-5">
                             <div class=" d-flex flex-column align-items-start">
                                 <label class="mb-2" for="alert_modal_recipients_list">Share this Alert with other recipients:</label>
-                                <div id="alert_modal_recipients_list" class="trellisEmailList"></div>
-                                <label class="trellisCheckboxContainer mt-2">Exclude myself from this Alert
+                                <div id="alert_modal_recipients_list" class="judicialEmailList"></div>
+                                <label class="judicialCheckboxContainer mt-2">Exclude myself from this Alert
                                     <input type="checkbox" name="excludeMeFromAlert" id="exclude_creator" /> <span class="checkmark"></span>
                                 </label>
                                 <div class="d-flex flex-row justify-content-between align-items-center w-100 mt-3"> <a target="_blank" class="alertSettingsLink" href="/alerts">Alert Settings</a>

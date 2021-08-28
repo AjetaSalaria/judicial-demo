@@ -8912,10 +8912,10 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 .text-center {
 	text-align: center!important
 }
-.trellis-text-dark-green {
+.judicial-text-dark-green {
 	color: #1A4742;
 }
-.trellis-text-light-blue {
+.judicial-text-light-blue {
 	color: #1B83A1;
 }
 
@@ -11034,7 +11034,7 @@ button, button:active, button:focus {
 		background-position: left 10px bottom 16px
 	}
 	.section2ContentBackground___2-sUD.section2ContentBackgroundSkyscraper {
-		background: url(/static/images/trellis-signup-bk.jpg);
+		background: url(/static/images/judicial-signup-bk.jpg);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}

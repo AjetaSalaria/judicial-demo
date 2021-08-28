@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Home - Trellis Legal Intelligence')
+@section('title', 'Home - judicial Legal Intelligence')
 
 @section('content')
 <section class="position-relative py-8 py-md-11 mb-9 section-1">
@@ -28,7 +28,7 @@
                               <span class="text-primary">of legal intelligence</span>.
                            </h1>
                            <p class="lead text-muted mb-6 mb-md-8">
-                              State trial court data - accessible for the first time! Trellis is a comprehensive AI-powered state court research and analytics platform built by litigators for litigators.
+                              State trial court data - accessible for the first time! judicial is a comprehensive AI-powered state court research and analytics platform built by litigators for litigators.
                            </p>
                            <p class="lead text-muted mb-6 mb-md-8">What will you discover when you access the largest searchable database of state trial court records?</p>
                            <a href="/search" class="btn btn-primary mr-1 lift">
@@ -40,6 +40,6 @@
                </section>
                <section class="py-8 py-md-11 border-bottom section-2">
                   <div class="container">
-                  </div>   
-               </section>  
+                  </div>
+               </section>
 @endsection

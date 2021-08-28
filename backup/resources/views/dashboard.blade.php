@@ -1,9 +1,9 @@
 @extends('layoutdashboard')
-@section('title', 'Home - Trellis Legal Intelligence')
+@section('title', 'Home - judicial Legal Intelligence')
 @section('content')
     {{-- <section class="py-8 py-md-11 border-bottom section-2">
                   <div class="container">
-                  </div>   
+                  </div>
                </section>  --}}
 
     <div id="bodyWrapper" class="bodyBackground">
@@ -17,7 +17,7 @@
                         <div class="header-center-wrapper">
                             <div class="coreSearchInput" style="width: 100%; position: relative;">
 
-                                    <input id="textSearchs" name="q" type="text" class="form-control" aria-label="Search anything: judges, parties, opposing counsel, motion types, legal issues" placeholder="Search anything: judges, parties, opposing counsel, motion types, legal issues" autocomplete="off" wrongful termination ""> 
+                                    <input id="textSearchs" name="q" type="text" class="form-control" aria-label="Search anything: judges, parties, opposing counsel, motion types, legal issues" placeholder="Search anything: judges, parties, opposing counsel, motion types, legal issues" autocomplete="off" wrongful termination "">
                                     <div class="spinner-border float-left" role="status" style="display:none;">
                                      </div>
                             </div>
@@ -28,10 +28,10 @@
                                             <div class="tipsTitle">
                                                 SEARCH TIPS
                                            </div>
-                                            <div class="tipContent"> 
+                                            <div class="tipContent">
                                                 <span><strong>
                                                     judge:last-name
-                                                </strong></span> 
+                                                </strong></span>
                                                 <span>
                                                     judge:Abbot
                                                 </span>
@@ -134,16 +134,16 @@
                                     <h4>Type</h4>
                                     <div class="filter-radio-button-holder">
                                         <input type="text" id="type-input" class="filterBoxInput form-control" placeholder="Filter by Type" onkeyup="if (!window.__cfRLUnblockHandlers) return false; filterAggregations('type-input',
-                                                                      'type-item')" onkeydown="if (!window.__cfRLUnblockHandlers) return false; disableEnterKey()" data-cf-modified-acfcc1acf16c1b3b565e9d8c-="" /> 
+                                                                      'type-item')" onkeydown="if (!window.__cfRLUnblockHandlers) return false; disableEnterKey()" data-cf-modified-acfcc1acf16c1b3b565e9d8c-="" />
                                                                   </div>
                                     <div class="filter-radio-button-holder">
                                         <div class="filter-group type-item">
-                                            <input id="filter-state-civil" class="filter-input trellisRulingSearchFilter" name="type" type="checkbox" value="civil">
+                                            <input id="filter-state-civil" class="filter-input judicialRulingSearchFilter" name="type" type="checkbox" value="civil">
                                             <label class="filter-label" for="filter-state-civil"> Civil (7) </label>
                                         </div>
                                     </div>
                                     <div class="applyButtonFooter">
-                                        <button class="trellis-apply-button trellis-green2">Apply</button>
+                                        <button class="judicial-apply-button judicial-green2">Apply</button>
                                     </div>
                                 </div>
                                 <div class="filter-module filter-judge">
@@ -153,12 +153,12 @@
                                                                       'judge-item')" onkeydown="if (!window.__cfRLUnblockHandlers) return false; disableEnterKey()" data-cf-modified-acfcc1acf16c1b3b565e9d8c-="" /> </div>
                                     <div class="filter-radio-button-holder">
                                         <div class="filter-group judge-item">
-                                            <input id="filter-state-Thomas Anderle" class="filter-input trellisRulingSearchFilter" name="judge" type="checkbox" value="Thomas Anderle">
+                                            <input id="filter-state-Thomas Anderle" class="filter-input judicialRulingSearchFilter" name="judge" type="checkbox" value="Thomas Anderle">
                                             <label class="filter-label" for="filter-state-Thomas Anderle"> Thomas Anderle (34) </label>
                                         </div>
                                     </div>
                                     <div class="applyButtonFooter">
-                                        <button class="trellis-apply-button trellis-green2">Apply</button>
+                                        <button class="judicial-apply-button judicial-green2">Apply</button>
                                     </div>
                                 </div>
                                 <div class="filter-module filter-county">
@@ -168,12 +168,12 @@
                                                                       'county-item')" onkeydown="if (!window.__cfRLUnblockHandlers) return false; disableEnterKey()" data-cf-modified-acfcc1acf16c1b3b565e9d8c-="" /> </div>
                                     <div class="filter-radio-button-holder">
                                         <div class="filter-group county-item">
-                                            <input id="filter-state-6083" class="filter-input trellisRulingSearchFilter" name="county" type="checkbox" value="6083">
+                                            <input id="filter-state-6083" class="filter-input judicialRulingSearchFilter" name="county" type="checkbox" value="6083">
                                             <label class="filter-label" for="filter-state-6083"> Santa Barbara County, CA (34) </label>
                                         </div>
                                     </div>
                                     <div class="applyButtonFooter">
-                                        <button class="trellis-apply-button trellis-green2">Apply</button>
+                                        <button class="judicial-apply-button judicial-green2">Apply</button>
                                     </div>
                                 </div> <a class="all-reset d-block mt-2" href="/rulings/judge:anderle AND &quot;wrongful termination&quot;">Reset All</a> </div>
                         </form>
@@ -203,9 +203,9 @@
                             <div class="sort-by-bar d-flex flex-row align-items-center">
                                 <div class="d-flex flex-row align-items-center">
                                     <p class="mr-3">Sort By</p>
-                                    <div class="dropdown trellisDropdown sort-button-group">
+                                    <div class="dropdown judicialDropdown sort-button-group">
                                         <a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle sortGroupButton" href="#"> <span id="selected">Most Relevant</span> <span class="caret"></span> </a>
-                                        <ul class="trellisDropdownMenu dropdown-menu dropdown-menu-right">
+                                        <ul class="judicialDropdownMenu dropdown-menu dropdown-menu-right">
                                             <li class="active"> <a href="/rulings/judge:anderle%20AND%20%22wrongful%20termination%22?sort=relevance" data-sort-by="relevance" class="search-sort-button ">Most Relevant</a> </li>
                                             <li class=""> <a href="/rulings/judge:anderle%20AND%20%22wrongful%20termination%22?sort=date" data-sort-by="date" class="search-sort-button">Newest to Oldest</a> </li>
                                         </ul>
@@ -223,23 +223,23 @@
                                         <button type="button" class="alert-action-btn ml-xl-2 alert-overlay-btn" data-alert-name='judge:anderle AND &quot;wrongful termination&quot;' data-alert-state="[&quot;ca&quot;]" data-toggle="tooltip" data-placement="top" data-add-all=1 title="Alert me with new rulings related to this topic"> <img src="/static/alerts/bell-icon-2.svg" alt="bell-icon"> Track This Topic </button>
                                     </div>
                                     <div class="overlay-checkbox">
-                                        <label class="trellisCheckboxContainer mt-2">Don't show this again
+                                        <label class="judicialCheckboxContainer mt-2">Don't show this again
                                             <input id="alertShowSetting" type="checkbox" name="show_topic_alert" class="dont-show-input"> <span class="checkmark"></span> </label>
                                     </div>
                                 </div>
-                            </div> 
-                            <div id="search_result">
-                            </div> 
-                            <span class="mainLoadingIcon"></span> 
                             </div>
-                                <p class="trellis-pagination"> <span class="step-links">
+                            <div id="search_result">
+                            </div>
+                            <span class="mainLoadingIcon"></span>
+                            </div>
+                                <p class="judicial-pagination"> <span class="step-links">
                                 <span class="current">
 
 
                            {{--  <a href="/rulings/judge:anderle%20AND%20%22wrongful%20termination%22?" class="deactivate">1</a>
                             <a href="/rulings/judge:anderle%20AND%20%22wrongful%20termination%22/2?">2</a> --}}
 
-                            {{-- </span> &nbsp; <a rel="next" href="/rulings/judge:anderle%20AND%20%22wrongful%20termination%22/2?">next</a>&nbsp; <a href="/rulings/judge:anderle%20AND%20%22wrongful%20termination%22/2?">last &raquo;</a>&nbsp; 
+                            {{-- </span> &nbsp; <a rel="next" href="/rulings/judge:anderle%20AND%20%22wrongful%20termination%22/2?">next</a>&nbsp; <a href="/rulings/judge:anderle%20AND%20%22wrongful%20termination%22/2?">last &raquo;</a>&nbsp;
                             </span> --}}
                         </p>
                     </div>
@@ -247,16 +247,16 @@
             </div>
         </div>
         <div class="page-container printable">
-            <h1 class="print-text">For full print and download access, please subscribe at https://www.trellis.law/.</h1> </div>
+            <h1 class="print-text">For full print and download access, please subscribe at https://www.judicial.law/.</h1> </div>
         <script type="acfcc1acf16c1b3b565e9d8c-text/javascript" src="/static/CACHE/js/output.bc7edacc955d.js"></script>
         <script type="acfcc1acf16c1b3b565e9d8c-text/javascript" src="/static/user_account/js/unpause_alert.js"></script>
         <script type="acfcc1acf16c1b3b565e9d8c-text/javascript" src="/static/global/mark-8.4.0.min.js"></script>
-        <script type="acfcc1acf16c1b3b565e9d8c-text/javascript" src="/static/smart_search/js/index.js"></script> 
+        <script type="acfcc1acf16c1b3b565e9d8c-text/javascript" src="/static/smart_search/js/index.js"></script>
         <input type='hidden' name='csrfmiddlewaretoken' value='8RDFOuw4KNXUxnJv9LHwokHbvsMLZB0dhFjAhvVvMAJ7amzHObh20R40bcZvVYxl' />
-        <div class="modal alertModal trellis-popup-modal" id="alertAddSuccessModal" tabindex="-1" role="dialog" aria-labelledby="alertAddSuccessModal" aria-hidden="true">
+        <div class="modal alertModal judicial-popup-modal" id="alertAddSuccessModal" tabindex="-1" role="dialog" aria-labelledby="alertAddSuccessModal" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="trellisPopupContent border-gray pt-0 d-flex flex-column align-items-start mt-4">
+                    <div class="judicialPopupContent border-gray pt-0 d-flex flex-column align-items-start mt-4">
                         <div class="modal-title d-flex flex-row justify-content-start align-items-center"> <img class="modal-icon" src="/static/alerts/bell-icon-2.svg" alt="close icon" />
                             <h5>Alert Confirmation</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
@@ -264,17 +264,17 @@
                         <p class="content mt-2">
                          Your alert tracking was succesfully added. We will email you when new changes related to "
                             <span class="alert-name-text"></span>" are available. </p>
-                        <div class="d-flex flex-row align-items-center justify-content-between w-100"> 
+                        <div class="d-flex flex-row align-items-center justify-content-between w-100">
                             <a class="linkToEnableShareWithOthersPanel" href="#">Add other recipients</a>
                             <button type="button" class="button-close modal-btn btn-green done" data-dismiss="modal">
-                             <span>Done</span> 
+                             <span>Done</span>
                             </button>
                         </div>
                         <div class="shareWithOthersPanel mt-5">
                             <div class=" d-flex flex-column align-items-start">
                                 <label class="mb-2" for="alert_modal_recipients_list">Share this Alert with other recipients:</label>
-                                <div id="alert_modal_recipients_list" class="trellisEmailList"></div>
-                                <label class="trellisCheckboxContainer mt-2">Exclude myself from this Alert
+                                <div id="alert_modal_recipients_list" class="judicialEmailList"></div>
+                                <label class="judicialCheckboxContainer mt-2">Exclude myself from this Alert
                                     <input type="checkbox" name="excludeMeFromAlert" id="exclude_creator" /> <span class="checkmark"></span> </label>
                                 <div class="d-flex flex-row justify-content-between align-items-center w-100 mt-3"> <a target="_blank" class="alertSettingsLink" href="/alerts">Alert Settings</a>
                                     <button type="button" class="startPlanButton modal-btn btn-green done" id="alert_modal_recipients_add" data-dismiss="modal"> <span>Done</span> </button>
@@ -295,7 +295,7 @@
                         <h5 class="modal-title mb-3" id="exampleModalLabel">Thank You</h5>
                         <p>Your subscription was successfully upgraded <span class="optionalUpgradeText"></span></p>
                     </div>
-                    <div class="modal-footer"> 
+                    <div class="modal-footer">
                         <a class="confirmationAnchor btn-primary btn-green" href="/rulings/judge:anderle AND &quot;wrongful termination&quot;" aria-label="Continue">
                         Continue
                         </a>
@@ -315,7 +315,7 @@
                     </div>
                     <div class="modal-footer">
                         <div class="updateCardConfirmationAnchor text-decoration-none">
-                            <button type="button" class="d-block button___2r4xk modal-btn btn-green"> 
+                            <button type="button" class="d-block button___2r4xk modal-btn btn-green">
                                 <span class="d-flex flex-nowrap justify-content-center align-items-center" aria-label="Continue">
                                     Continue
                                 </span>
@@ -331,7 +331,7 @@
             <p>Please wait a moment while we load this page.</p>
         </div>
     </div>
-   
+
     <div class="container">
         <div class="row">
             <div class="modal fade" id="credits-purchased-modal" tabindex="-1" role="dialog" aria-labelledby="subscription-change-started" aria-hidden="true">

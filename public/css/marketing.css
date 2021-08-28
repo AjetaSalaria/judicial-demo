@@ -6714,7 +6714,7 @@ a.close.disabled {
 .bg-primary {
     background-color:  rgb(81, 4, 66) !important;
 }
-.bg-trellis-green {
+.bg-judicial-green {
 	background-color: #446864;
 }
 a.bg-primary:focus,
@@ -13592,7 +13592,7 @@ a.badge-gray-700-soft:hover {
 }
 .btn-primary-soft {
     background-color: rgba(71, 37, 88, 0.1);
-    color:  rgb(81, 4, 66) !important;
+    color:  rgb(71, 37, 88)!important;
 }
 .btn-primary-soft:focus,
 .btn-primary-soft:hover,

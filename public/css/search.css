@@ -183,7 +183,7 @@
                     
                     .section-reset,
                     .all-reset,
-                    .trellis-apply-button {
+                    .judicial-apply-button {
                         font-size: 14px;
                         font-weight: 500;
                         color: rgb(255, 255, 255) !important;
@@ -589,19 +589,19 @@
     }
     
     .main-logo-theme {
-        background: url('/static/global/trellis-word-logo.svg') no-repeat;
+        background: url('/static/global/judicial-word-logo.svg') no-repeat;
     }
     
     .main-logo-motto-theme {
-        background: url(/static/global/trellis-word-motto.svg) no-repeat;
+        background: url(/static/global/judicial-word-motto.svg) no-repeat;
     }
     
     .main-logo-motto-theme-white {
-        background: url(/static/global/trellis-word-motto-white.svg) no-repeat;
+        background: url(/static/global/judicial-word-motto-white.svg) no-repeat;
     }
     
     .logo-green {
-        background: url('/static/global/trellis-word-green-300.png') no-repeat;
+        background: url('/static/global/judicial-word-green-300.png') no-repeat;
     }
     
     .text-theme {
@@ -985,7 +985,7 @@
         background-size: contain;
         object-fit: contain;
     }
-    /** TRELLIS NAV ORIGINAL **/
+    /** judicial NAV ORIGINAL **/
     
     .navbar-brand {
         padding: 0.15em 0.55em;
@@ -1024,7 +1024,7 @@
     div.printFooter img {
         width: 100px;
     }
-    /** TRELLIS NAV NEW **/
+    /** judicial NAV NEW **/
     
     .searchPopulate {
         background: #F5F6F3;
@@ -1049,7 +1049,7 @@
         background: #ffffff !important;
     }
     
-    .trellisNav {
+    .judicialNav {
         width: 100%;
         margin-right: auto;
         margin-left: auto;
@@ -1072,7 +1072,7 @@
     }
     
     nav[role="navigation"] a,
-    a.trellisLink {
+    a.judicialLink {
         text-decoration: none;
         border-bottom: 3px solid transparent;
     }
@@ -1089,23 +1089,23 @@
         font-size: 83%;
     }
     
-    .trellisMenuInternal {
+    .judicialMenuInternal {
         width: 100%;
     }
     
     @media (min-width: 768px) {
-        .trellisMenuInternal {
+        .judicialMenuInternal {
             width: 85%;
         }
     }
     
     @media (min-width: 1200px) {
-        .trellisMenuInternal {
+        .judicialMenuInternal {
             width: 80%;
         }
     }
     
-    .trellisLogo {
+    .judicialLogo {
         margin-top: 1.0625rem;
         margin-bottom: 1rem;
         margin-left: 1.25rem;
@@ -1115,7 +1115,7 @@
     }
     
     @media (min-width: 768px) {
-        .trellisLogo {
+        .judicialLogo {
             margin-top: 1.1875rem;
             margin-bottom: 1.1875rem;
             flex: unset;
@@ -1123,14 +1123,14 @@
     }
     
     @media (min-width: 992px) {
-        .trellisLogo {
+        .judicialLogo {
             margin-top: 1.5625rem;
             margin-bottom: 1.5625rem;
             margin-left: 1.75rem;
         }
     }
     
-    .trellisLogoImage {
+    .judicialLogoImage {
         max-width: 123px;
         max-height: 54px;
     }
@@ -1148,7 +1148,7 @@
         }
     }
     
-    .trellisIcon {
+    .judicialIcon {
         width: 24px;
         width: 1.5rem;
         height: 24px;
@@ -1156,7 +1156,7 @@
         fill: #174742;
     }
     
-    .trellisIcon>svg {
+    .judicialIcon>svg {
         width: 23px;
         width: 1.4375rem;
         height: auto;
@@ -1180,7 +1180,7 @@
         }
     }
     
-    .trellisLink {
+    .judicialLink {
         padding-top: .4375rem;
         padding-bottom: .4375rem;
         padding-left: 1.125rem;
@@ -1193,14 +1193,14 @@
         margin-right: 2.5em;
     }
     
-    .trellisLink {
+    .judicialLink {
         font-weight: 500;
         letter-spacing: 1px;
         line-height: .8125rem;
         padding-left: 0;
     }
     
-    .trellisLink {
+    .judicialLink {
         font-size: 0.9rem;
     }
     
@@ -1883,12 +1883,12 @@
         margin-bottom: 1em;
     }
     
-    .trellisCallToAction.continue-reading-link {
+    .judicialCallToAction.continue-reading-link {
         text-align: center;
         display: block;
     }
     
-    .trellis-action-btn {
+    .judicial-action-btn {
         background-color: rgb(71, 37, 88);
         border-color: rgb(71, 37, 88);
         border-radius: 4px;
@@ -1909,7 +1909,7 @@
         color: rgb(71, 37, 88);
     }
     
-    button.trellis-action-btn a {
+    button.judicial-action-btn a {
         font-size: 16px;
         line-height: 17px;
         text-align: center;
@@ -1917,25 +1917,25 @@
         text-decoration: none;
     }
     
-    button.trellis-action-btn a:hover {
+    button.judicial-action-btn a:hover {
         text-decoration: none;
     }
     
-    .text-trellis-green {
+    .text-judicial-green {
         color: #006744 !important;
         font-weight: 500;
         font-family: Roboto;
         font-size: 12px;
     }
     
-    .trellis-action-btn.trellis-green,
-    .trellis-action-btn.trellis-green2 {
+    .judicial-action-btn.judicial-green,
+    .judicial-action-btn.judicial-green2 {
         color: rgb(255, 255, 255) !important;
         background: rgb(81, 4, 66) !important;
     }
     
-    .trellis-action-btn.trellis-green:not(.inverse):hover,
-    .trellis-action-btn.trellis-green2:hover {
+    .judicial-action-btn.judicial-green:not(.inverse):hover,
+    .judicial-action-btn.judicial-green2:hover {
         color: rgb(255, 255, 255) !important;
         background: rgb(41, 0, 102) !important;
         text-decoration: none;
@@ -1946,20 +1946,20 @@
     */
     }
     
-    .trellis-green-inverse {
+    .judicial-green-inverse {
         background: rgb(255, 255, 255) !important;
         color: rgb(81, 4, 66) !important;
         border: 1px solid rgb(81, 4, 66) !important;
     }
     
-    .trellis-green-inverse:hover {
+    .judicial-green-inverse:hover {
         background: rgb(255, 255, 255) !important;
         color: rgb(41, 0, 102) !important;
         text-decoration: none;
         border: 1px solid rgb(81, 4, 66) !important;
     }
     
-    .trellis-green-border {
+    .judicial-green-border {
         background: rgb(255, 255, 255) !important;
         color: rgb(81, 4, 66) !important;
         border-color: rgb(81, 4, 66) !important;
@@ -1999,31 +1999,31 @@
         cursor: default;
     }
     
-    .trellis-action-btn.danger,
-    .trellis-action-btn.danger:hover {
+    .judicial-action-btn.danger,
+    .judicial-action-btn.danger:hover {
         background-color: #ff3547 !important;
         border: 1px solid transparent;
     }
     
-    .trellis-action-btn.inverse {
+    .judicial-action-btn.inverse {
         color: #750dd5;
         border: 1px solid #750dd5;
         background: white;
     }
     
-    .trellis-action-btn:hover,
-    .trellis-action-btn:active,
-    .trellis-action-btn:focus {
+    .judicial-action-btn:hover,
+    .judicial-action-btn:active,
+    .judicial-action-btn:focus {
         -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
         box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
         outline: 0;
     }
     
-    .trellis-action-btn:not(.inverse):not(.trellis-green2):hover {
+    .judicial-action-btn:not(.inverse):not(.judicial-green2):hover {
         background: rgb(71, 37, 88);
     }
     
-    .trellis-banner {
+    .judicial-banner {
         display: flex;
         flex-direction: row;
         background-color: rgb(249, 237, 240);
@@ -2036,11 +2036,11 @@
         color: rgb(0, 0, 0);
     }
     
-    .trellis-banner .trellis-badge {
+    .judicial-banner .judicial-badge {
         margin-right: 1em;
     }
     
-    .trellis-banner p {
+    .judicial-banner p {
         font-family: Open Sans;
         font-weight: 600;
         font-size: 14px;
@@ -2048,16 +2048,16 @@
         margin: 0;
     }
     
-    .trellis-banner a {
+    .judicial-banner a {
         text-decoration: underline;
         font-weight: 700;
     }
     
-    .trellis-banner.banner-danger {
+    .judicial-banner.banner-danger {
         background-color: rgb(249, 237, 240);
     }
     
-    .trellis-badge {
+    .judicial-badge {
         display: inline-block;
         padding: .25em 1em;
         font-weight: 700;
@@ -2092,7 +2092,7 @@
     }
     
     @media (min-width: 990px) {
-        .trellis-action-btn {
+        .judicial-action-btn {
             white-space: nowrap;
             margin-bottom: 0;
         }
@@ -2118,7 +2118,7 @@
         text-decoration: none;
     }
     
-    .trellis-btn {
+    .judicial-btn {
         border: 0;
         padding: 10px 15px;
         margin: 10px;
@@ -2137,37 +2137,37 @@
         font-size: 16px;
     }
     
-    .trellis-btn.disabled {
+    .judicial-btn.disabled {
         cursor: default;
         opacity: 0.4;
     }
     
-    a.trellis-btn:hover {
+    a.judicial-btn:hover {
         text-decoration: none;
     }
     
-    .trellis-btn.btn-danger {
+    .judicial-btn.btn-danger {
         color: #fff;
         background-color: #dc3545;
         border-color: #dc3545;
     }
     
-    .trellis-text-marketing {
+    .judicial-text-marketing {
         color: #2E7FA8;
         font-size: 1em;
         font-weight: 300;
     }
     
-    .trellis-btn.btn-sm {
+    .judicial-btn.btn-sm {
         padding: .5rem 1rem .5rem 1rem;
         border-radius: 0!important;
     }
     
-    .trellis-btn.trellis-round {
+    .judicial-btn.judicial-round {
         border-radius: 50px!important;
     }
     
-    .trellis-btn:hover {
+    .judicial-btn:hover {
         -webkit-transform: translateY(-2px);
         -ms-transform: translateY(-2px);
         transform: translateY(-2px);
@@ -2175,11 +2175,11 @@
         box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
     }
     
-    .trellis-btn.white:hover {
+    .judicial-btn.white:hover {
         background-color: #d9d9d9;
     }
     
-    .trellis-green-anchor {
+    .judicial-green-anchor {
         font-size: 14px;
         font-weight: 400;
         color: rgb(41, 0, 102);
@@ -2187,7 +2187,7 @@
         padding: 1px 10px;
     }
     
-    .trellis-banner a:hover {
+    .judicial-banner a:hover {
         text-decoration: none;
         font-weight: 700;
         background-color: rgb(41, 0, 102);
@@ -2231,7 +2231,7 @@
     }
     /******  PAGINATION STYLES ******/
     
-    p.trellis-pagination {
+    p.judicial-pagination {
         padding-left: 2em;
         padding-right: 2em;
         margin-bottom: 0;
@@ -2240,7 +2240,7 @@
         margin-top: 2em;
     }
     
-    p.trellis-pagination a {
+    p.judicial-pagination a {
         font-size: 16px;
         line-height: 20px;
         color: #750dd5;
@@ -2248,7 +2248,7 @@
         border: none;
     }
     
-    p.trellis-pagination a.deactivate {
+    p.judicial-pagination a.deactivate {
         text-decoration: none;
         cursor: default;
         font-weight: bolder;
@@ -2380,7 +2380,7 @@
         }
     }
     
-    .trellis-page-title {
+    .judicial-page-title {
         color: #4A90E2;
         font-size: 20px;
         line-height: 1.5;
@@ -2842,7 +2842,7 @@
         #home-logo {
             height: 35px;
             width: 35px;
-            background: url("/static/global/trellis-logo-simplified.svg") center/contain no-repeat;
+            background: url("/static/global/judicial-logo-simplified.svg") center/contain no-repeat;
         }
         #breadcrumbs {
             overflow: hidden;
@@ -2924,7 +2924,7 @@
         border: 0; // font: 0/0 a;
         text-shadow: none;
         color: transparent;
-        background: url(/static/global/trellis-word-black-128.png);
+        background: url(/static/global/judicial-word-black-128.png);
         background-size: 64px 17px;
         width: 64px;
         height: 17px;
@@ -3000,7 +3000,7 @@
         right: -14px;
     }
     
-    .trellisDropdown * {
+    .judicialDropdown * {
         font-size: 14px;
         font-weight: 500;
         color: rgb(71, 37, 88) !important;
@@ -3014,33 +3014,33 @@
         margin-top: 20px;
     }
     
-    .trellisDropdown .dropdown-menu {
+    .judicialDropdown .dropdown-menu {
         margin-top: 0.5rem;
     }
     
-    .trellisDropdown a:hover {
+    .judicialDropdown a:hover {
         text-decoration: none;
     }
     
-    .trellisDropdown ul li a {
+    .judicialDropdown ul li a {
         text-decoration: none;
         font-size: 14px;
         font-weight: 500;
         color: rgb(41, 0, 102);
     }
     
-    .trellisDropdown ul li {
+    .judicialDropdown ul li {
         padding: 11px;
         border-left: 2px solid transparent;
     }
     
-    .trellisDropdown ul li:hover {
+    .judicialDropdown ul li:hover {
         border-left: 2px solid rgb(41, 0, 102) !important;
         background: #F5F6F4;
         color: #000 !important;
     }
     
-    .trellisDropdown ul li.active {
+    .judicialDropdown ul li.active {
         border-left: 2px solid #174742;
         background: #F5F6F4;
     }
@@ -3141,7 +3141,7 @@
         }
     }
     
-    .trellis-popup-modal h5 {
+    .judicial-popup-modal h5 {
         margin: 0;
         font-size: 25px;
         color: #000000;
@@ -3356,8 +3356,8 @@
         line-height: 17px;
     }
     
-    a.trellis-link,
-    a.trellis-link:visited {
+    a.judicial-link,
+    a.judicial-link:visited {
         display: block;
         padding: 0.5rem 1.5rem;
         color: #f4f4f4;
@@ -3377,31 +3377,31 @@
         color: #750dd5;
     }
     
-    a.trellis-link:hover {
+    a.judicial-link:hover {
         color: #750dd5;
         text-decoration: underline;
     }
     
-    a.trellis-link.black-text {
+    a.judicial-link.black-text {
         color: #000000;
         font-weight: 500;
     }
     
-    a.viewed:not(.trellisLink):not(.signUpButton) {
+    a.viewed:not(.judicialLink):not(.signUpButton) {
         color: #609;
     }
     
-    a.trellis-anchor {
+    a.judicial-anchor {
         color: #750dd5;
         text-decoration: none;
     }
     
-    a.trellis-anchor.text-white {
+    a.judicial-anchor.text-white {
         color: white;
         text-decoration: none;
     }
     
-    a.trellis-anchor:hover {
+    a.judicial-anchor:hover {
         color: #0056b3;
         text-decoration: none;
     }
@@ -3607,7 +3607,7 @@
             overflow: unset;
         }
     }
-    /* Trellis Dropdown */
+    /* judicial Dropdown */
     
     .datalist-wrapper {
         position: relative;
@@ -3742,7 +3742,7 @@
             margin-bottom: 0;
         }
     }
-    /*** END Trellis Dropdown ***/
+    /*** END judicial Dropdown ***/
     /** Alert Popup **/
     
     .track-popup {
@@ -4193,14 +4193,14 @@
     }
     
     @media (max-width: 767px) {
-        .trellisLogo {
+        .judicialLogo {
             flex: 1;
             display: inline-block;
             margin: 1em auto;
             max-width: 100px;
             margin-left: 10px;
         }
-        a.trellisLink.internalLinks.d-flex.align-items-center {
+        a.judicialLink.internalLinks.d-flex.align-items-center {
             font-size: 15px;
             margin-right: 14px;
             padding-top: 8px;
@@ -4209,7 +4209,7 @@
             top: 21px !important;
             right: 70px !important;
         }
-        trellisLogoImage {
+        judicialLogoImage {
             max-width: 109px;
         }
         .dataTables_filter input[type=search] {
@@ -4222,7 +4222,7 @@
     }
     
     @media print {
-        .trellis-base,
+        .judicial-base,
         .page-container,
         .container {
             display: none !important;
@@ -4235,41 +4235,41 @@
             font-size: 300%;
         }
     }
-    /* TRELLIS MODAL */
+    /* judicial MODAL */
     
-    .trellis-modal .modal-header,
-    .trellis-modal .modal-footer {
+    .judicial-modal .modal-header,
+    .judicial-modal .modal-footer {
         border: none;
     }
     
-    .trellisEmailList {
+    .judicialEmailList {
         text-align: left;
     }
     /* overrides for the css email list */
     
-    .trellisEmailList .email-chip {
+    .judicialEmailList .email-chip {
         border: 1px solid gray;
         background-color: white;
         padding-top: .2rem;
         padding-bottom: .2rem;
     }
     
-    .trellisEmailList .email-chip .content,
+    .judicialEmailList .email-chip .content,
     .emails.emails-input .email-chip {
         background-color: white;
     }
     
-    .trellisEmailList .emails-input {
+    .judicialEmailList .emails-input {
         border: none;
         border-bottom: 3px solid #01885A;
         background-color: whitesmoke;
     }
     
-    .trellisEmailList input {
+    .judicialEmailList input {
         background-color: whitesmoke;
     }
     
-    .trellisEmailList .emails.emails-input .email-chip .remove {
+    .judicialEmailList .emails.emails-input .email-chip .remove {
         font-size: 1.5rem;
         font-weight: 100;
         top: 50%;
@@ -4279,27 +4279,27 @@
         right: 6px;
     }
     
-    .trellisEmailList .emails.emails-input .email-chip p.content {
+    .judicialEmailList .emails.emails-input .email-chip p.content {
         margin-right: 1rem;
         color: dimgray;
     }
     
-    .trellis-popup-modal h2 {
+    .judicial-popup-modal h2 {
         font-family: Montserrat;
         font-weight: 600;
         font-size: 25px;
         color: #000000;
     }
     
-    .trellis-popup-modal .modal-header {
+    .judicial-popup-modal .modal-header {
         border-bottom: none;
     }
     
-    .trellis-popup-modal .modal-title {
+    .judicial-popup-modal .modal-title {
         margin-bottom: 1em;
     }
     
-    .trellis-popup-modal .close {
+    .judicial-popup-modal .close {
         font-weight: 100;
         font-size: 2rem;
         position: absolute;
@@ -4307,20 +4307,20 @@
         top: 0;
     }
     
-    .trellis-popup-modal .modal-header {
+    .judicial-popup-modal .modal-header {
         padding: 1.75rem;
     }
     
-    .trellis-popup-modal .form-check {
+    .judicial-popup-modal .form-check {
         display: flex;
         padding-left: 0;
     }
     
-    .trellis-popup-modal .form-check input[type=checkbox] {
+    .judicial-popup-modal .form-check input[type=checkbox] {
         margin-right: 0.5rem;
     }
     
-    .trellis-popup-modal .trellisPopupContent {
+    .judicial-popup-modal .judicialPopupContent {
         padding: 1.5rem 1.5rem 3rem;
         text-align: center;
         font-size: 15px;
@@ -4330,12 +4330,12 @@
         line-height: 1;
     }
     
-    .trellisPopupContent {
+    .judicialPopupContent {
         padding: 0 1.5rem;
         text-align: center;
     }
     
-    .trellis-popup-modal label {
+    .judicial-popup-modal label {
         margin: 0;
         margin-left: 0;
         display: flex;
@@ -4349,42 +4349,42 @@
         font-size: 15px;
     }
     
-    .trellis-popup-modal .cancelButton:hover {
+    .judicial-popup-modal .cancelButton:hover {
         text-decoration: none;
         color: #174742;
     }
     
-    .trellis-popup-modal button {
+    .judicial-popup-modal button {
         border-radius: 3px!important;
     }
     
-    .trellis-popup-modal #alert_modal_recipients_list {
+    .judicial-popup-modal #alert_modal_recipients_list {
         width: 100%;
     }
     
-    .trellis-popup-modal .modal-icon {
+    .judicial-popup-modal .modal-icon {
         margin-right: 1rem;
         width: 30px;
     }
     
-    .trellis-popup-modal .modal-icon-2 {
+    .judicial-popup-modal .modal-icon-2 {
         width: 200px;
     }
     
-    .trellis-popup-modal .modal-background {
+    .judicial-popup-modal .modal-background {
         position: absolute;
         width: 100%;
         z-index: 500;
     }
     
-    .trellis-popup-modal a {
+    .judicial-popup-modal a {
         font-family: Roboto;
         font-weight: 400;
         font-size: 18px;
         color: rgb(1, 136, 90);
     }
     
-    .trellis-popup-modal p.content {
+    .judicial-popup-modal p.content {
         font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
@@ -4394,7 +4394,7 @@
         line-height: 1.5;
     }
     
-    .trellis-popup-modal p.content-2 {
+    .judicial-popup-modal p.content-2 {
         font-family: Roboto;
         font-weight: 400;
         font-size: 18px;
@@ -4403,11 +4403,11 @@
         line-height: 1.389;
     }
     
-    .trellis-popup-modal .modal-body {
+    .judicial-popup-modal .modal-body {
         padding: 0 2.25em;
     }
     
-    .trellis-popup-modal .linkToEnableShareWithOthersPanel {
+    .judicial-popup-modal .linkToEnableShareWithOthersPanel {
         font-family: Open Sans;
         font-size: 14px;
         font-weight: 400;
@@ -4415,13 +4415,13 @@
         text-decoration: none;
     }
     
-    .trellis-popup-modal .shareWithOthersPanel {
+    .judicial-popup-modal .shareWithOthersPanel {
         width: 100%;
         display: none;
     }
     
-    .trellis-popup-modal .alertSettingsLink,
-    .trellis-popup-modal .alertSettingsLink:hover {
+    .judicial-popup-modal .alertSettingsLink,
+    .judicial-popup-modal .alertSettingsLink:hover {
         font-family: Open Sans;
         font-size: 14px;
         font-weight: 400;
@@ -4429,11 +4429,11 @@
         text-decoration: none;
     }
     
-    .trellis-popup-modal .done {
+    .judicial-popup-modal .done {
         border-radius: 7px;
     }
     
-    .trellis-popup-modal .modal-btn {
+    .judicial-popup-modal .modal-btn {
         border: 2px solid transparent;
         background-color: rgb(81, 4, 66)!important;
         color: #fff !important;
@@ -4441,7 +4441,7 @@
     }
     /* Customize the label (the container) */
     
-    .trellisCheckboxContainer {
+    .judicialCheckboxContainer {
         display: flex;
         position: relative;
         padding-left: 30px;
@@ -4456,7 +4456,7 @@
     }
     /* Hide the browser's default checkbox */
     
-    .trellisCheckboxContainer input {
+    .judicialCheckboxContainer input {
         position: absolute;
         opacity: 0;
         cursor: pointer;
@@ -4465,7 +4465,7 @@
     }
     /* Create a custom checkbox */
     
-    .trellisCheckboxContainer .checkmark {
+    .judicialCheckboxContainer .checkmark {
         position: absolute;
         top: 0;
         left: 0;
@@ -4474,34 +4474,34 @@
         background-color: #eee;
     }
     
-    .track-overlay .trellisCheckboxContainer .checkmark {
+    .track-overlay .judicialCheckboxContainer .checkmark {
         background-color: white;
     }
     /* On mouse-over, add a grey background color */
     
-    .trellisCheckboxContainer:hover input ~ .checkmark {
+    .judicialCheckboxContainer:hover input ~ .checkmark {
         background-color: #ccc;
     }
     /* When the checkbox is checked, add a blue background */
     
-    .trellisCheckboxContainer input:checked ~ .checkmark {
+    .judicialCheckboxContainer input:checked ~ .checkmark {
         background-color: #006744;
     }
     /* Create the checkmark/indicator (hidden when not checked) */
     
-    .trellisCheckboxContainer .checkmark:after {
+    .judicialCheckboxContainer .checkmark:after {
         content: "";
         position: absolute;
         display: none;
     }
     /* Show the checkmark when checked */
     
-    .trellisCheckboxContainer input:checked ~ .checkmark:after {
+    .judicialCheckboxContainer input:checked ~ .checkmark:after {
         display: block;
     }
     /* Style the checkmark/indicator */
     
-    .trellisCheckboxContainer .checkmark:after {
+    .judicialCheckboxContainer .checkmark:after {
         left: 6px;
         top: 5px;
         width: 6px;
@@ -4516,20 +4516,20 @@
     }
     /* New themes */
     
-    .trellis-green-container {
+    .judicial-green-container {
         padding: 1.5em 22px;
         background: white;
     }
     
-    .trellis-green-header {
+    .judicial-green-header {
         background: #DCE7DE;
         padding: 1px 22px;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
     }
     
-    .trellis-green-header h3,
-    .trellis-green-header h1 {
+    .judicial-green-header h3,
+    .judicial-green-header h1 {
         font-family: Montserrat;
         font-weight: 600;
         font-size: 18px;
@@ -4766,7 +4766,7 @@
         z-index: 99999;
     }
     
-    a.trellisLink.internalLinks:hover,
+    a.judicialLink.internalLinks:hover,
     .dropdown-item:focus {
         color: rgb(41, 0, 102) !important;
     }
@@ -4794,16 +4794,16 @@
         color: rgb(41, 0, 102);
     }
     
-    a.trellisLink.internalLinks:hover,
+    a.judicialLink.internalLinks:hover,
     .dropdown-item:focus,
-    .trellisLinkTheme a.trellisLink.internalLinks {
+    .judicialLinkTheme a.judicialLink.internalLinks {
         color: rgb(41, 0, 102) !important;
         /* background: #f6f7f6; */
         padding: 10px !important;
         border-bottom: 3px solid rgb(41, 0, 102) !important;
     }
     
-    a.trellisLink.internalLinks,
+    a.judicialLink.internalLinks,
     .dropdown-item {
         padding: 10px !important;
     }
@@ -4815,7 +4815,7 @@
         box-shadow: none;
     }
     
-    .trellisLink {
+    .judicialLink {
         margin: 0 20px 0 20px !important;
     }
     
@@ -4976,7 +4976,7 @@
         .list-group-item {
             border: 1px solid rgb(0 0 0 / 5%);
         }
-        .trellisLink {
+        .judicialLink {
             margin: 0 !important;
         }
         li.nav-item.dropdown.child-drop {
@@ -4991,16 +4991,16 @@
             padding: 10px 4px;
         }
         nav[role="navigation"] a:not(.btn),
-        a.trellisLink:not(.btn) {
+        a.judicialLink:not(.btn) {
             text-decoration: none;
             border-bottom: none !important;
         }
         .mobile-hide {
             display: none;
         }
-        a.trellisLink.internalLinks:hover,
+        a.judicialLink.internalLinks:hover,
         .dropdown-item:focus,
-        .trellisLinkTheme a.trellisLink.internalLinks {
+        .judicialLinkTheme a.judicialLink.internalLinks {
             color: none !important;
             padding: none !important;
             border-bottom: none !important;
@@ -5115,13 +5115,13 @@
             border-left: 3px solid #174742;
             background: #F5F6F4;
         }
-        .trellisLinkTheme a.trellisLink.internalLinks:hover {
+        .judicialLinkTheme a.judicialLink.internalLinks:hover {
             border: none !important;
             background: none !important;
         }
-        a.trellisLink.internalLinks:hover,
+        a.judicialLink.internalLinks:hover,
         .dropdown-item:focus,
-        .trellisLinkTheme a.trellisLink.internalLinks {
+        .judicialLinkTheme a.judicialLink.internalLinks {
             color: none !important;
             background: none !important;
             padding: none !important;

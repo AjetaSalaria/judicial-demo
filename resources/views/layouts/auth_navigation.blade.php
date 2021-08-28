@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/search.css') }}" />
         <link rel="stylesheet" href="{{ asset('css/garamond/fonts.css') }}" />
 
-    <link rel="canonical" href="https://trellis.law/rulings/judge:anderle%20AND%20%22wrongful%20termination%22/1" />
+    <link rel="canonical" href="https://judicial.law/rulings/judge:anderle%20AND%20%22wrongful%20termination%22/1" />
       
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -103,7 +103,7 @@
     
     </style>
     <head>
- <header class="trellisNav">
+ <header class="judicialNav">
              <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom common-navbar">
                   <div class="container">
                      <a class="navbar-brand header_logo" href="/">
